@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import ExpenseForm from "./components/ExpenseForm";
-import ExpenseTable from "./components/ExpenseTable";
-import FilterPhase from "./components/FilterPhase";
+import ExpenseForm from "./Components/ExpenseForm";
+import ExpenseTable from "./Components/ExpenseTable";
+import FilterPhase from "./Components/FilterPhase";
 const App = () => {
   const [expenses, setExpenses] = useState([]);
 
